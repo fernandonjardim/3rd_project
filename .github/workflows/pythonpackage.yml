@@ -71,5 +71,5 @@ jobs:
      - uses: akhileshns/heroku-deploy@v3.0.4 # This is the action 5
        with:
          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-         heroku_app_name: "third_project-f"
+         heroku_app_name: "thirdproject-f"
          heroku_email: ${{secrets.HEROKU_EMAIL}}
